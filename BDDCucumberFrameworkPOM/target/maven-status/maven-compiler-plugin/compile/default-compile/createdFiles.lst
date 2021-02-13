@@ -1,0 +1,14 @@
+utils\Constants.class
+stepDefinitions\SignInPageSteps.class
+pages\HomePage.class
+pages\SignInPage.class
+base\BaseTest.class
+pages\AddressesPage.class
+pages\AddressCreatedPage.class
+stepDefinitions\SignUpPageSteps.class
+stepDefinitions\HomePageSteps.class
+testRunner\TestRunner.class
+stepDefinitions\WelcomePageSteps.class
+pages\SignUpPage.class
+pages\WelcomePage.class
+pages\NewAddressPage.class

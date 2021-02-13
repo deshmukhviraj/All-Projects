@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner (2)" project="BDDCucumberFrameworkPOM" tests="16" started="16" failures="2" errors="0" ignored="0">
+  <testsuite name="testRunner.TestRunner" time="12.715">
+    <testsuite name="Feature: Perfom CRUD operations on Address Book website" time="12.715">
+      <testsuite name="Scenario: Open Address Book website &amp; Sign up" time="5.288" incomplete="true">
+        <failure>
+          <expected>Address Book</expected>
+          <actual>Address Book - Sign Up</actual>
+          junit.framework.ComparisonFailure: expected:&lt;Address Book[]&gt; but was:&lt;Address Book[ - Sign Up]&gt;&#13;
+	at junit.framework.Assert.assertEquals(Assert.java:100)&#13;
+	at junit.framework.Assert.assertEquals(Assert.java:107)&#13;
+	at stepDefinitions.WelcomePageSteps.user_navigates_to_the_Welcome_page(WelcomePageSteps.java:25)&#13;
+	at ✽.Then User navigates to the Welcome page(src/main/java/features/Application.feature:11)&#13;
+&#13;
+
+        </failure>
+        <testcase name="Given User is already on the TestAddressBook page" classname="Scenario: Open Address Book website &amp; Sign up" time="0.076"/>
+        <testcase name="When User clicks on the Sign in link" classname="Scenario: Open Address Book website &amp; Sign up" time="0.386"/>
+        <testcase name="Then the Sign in page is displayed" classname="Scenario: Open Address Book website &amp; Sign up" time="0.066"/>
+        <testcase name="When User clicks on SignUp link" classname="Scenario: Open Address Book website &amp; Sign up" time="2.042"/>
+        <testcase name="Then the Sign Up page is displayed" classname="Scenario: Open Address Book website &amp; Sign up" time="0.173"/>
+        <testcase name="When User enters the Email address and Password on SignUp page" classname="Scenario: Open Address Book website &amp; Sign up" time="0.525"/>
+        <testcase name="And Clicks on the Sign up button" classname="Scenario: Open Address Book website &amp; Sign up" time="2.011"/>
+        <testcase name="Then User navigates to the Welcome page" classname="Scenario: Open Address Book website &amp; Sign up" time="0.008">
+          <failure>
+            <expected>Address Book</expected>
+            <actual>Address Book - Sign Up</actual>
+            junit.framework.ComparisonFailure: expected:&lt;Address Book[]&gt; but was:&lt;Address Book[ - Sign Up]&gt;&#13;
+	at junit.framework.Assert.assertEquals(Assert.java:100)&#13;
+	at junit.framework.Assert.assertEquals(Assert.java:107)&#13;
+	at stepDefinitions.WelcomePageSteps.user_navigates_to_the_Welcome_page(WelcomePageSteps.java:25)&#13;
+	at ✽.Then User navigates to the Welcome page(src/main/java/features/Application.feature:11)&#13;
+&#13;
+
+          </failure>
+        </testcase>
+      </testsuite>
+      <testsuite name="Scenario: Sign in and sign out" time="4.378">
+        <testcase name="Given User is already on the TestAddressBook page" classname="Scenario: Sign in and sign out" time="0.066"/>
+        <testcase name="When User clicks on the Sign in link" classname="Scenario: Sign in and sign out" time="0.635"/>
+        <testcase name="Then the Sign in page is displayed" classname="Scenario: Sign in and sign out" time="0.154"/>
+        <testcase name="When User enters the Email address and Password on SignIn page" classname="Scenario: Sign in and sign out" time="0.709"/>
+        <testcase name="And Clicks on the Sign in button" classname="Scenario: Sign in and sign out" time="2.019"/>
+        <testcase name="Then User navigates to the Welcome page" classname="Scenario: Sign in and sign out" time="0.549"/>
+        <testcase name="When User clicks on the Sign out link" classname="Scenario: Sign in and sign out" time="0.033"/>
+        <testcase name="Then the Sign in page is displayed" classname="Scenario: Sign in and sign out" time="0.213"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

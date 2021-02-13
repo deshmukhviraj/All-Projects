@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 packages to &apos;Facebook_Login/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;BDDCucumberFrameworkPOM&apos;&#x0D;&#x0A;- Destination element: &apos;Facebook_Login/src/main/java&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     BDDCucumberFrameworkPOM/src/main/java/config&#x0D;&#x0A;     BDDCucumberFrameworkPOM/src/main/java/resources" description="Copy packages" destination="=Facebook_Login/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;config" element2="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;resources" flags="589830" fragments="2" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1612874698554" version="1.0"/>
+</session>

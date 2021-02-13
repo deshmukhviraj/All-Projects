@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="9.643122">
+    <testcase classname="Calculate EMI for Home loan, Car loan and Personal loan" name="Calculate EMI for Personal and Car loan" time="9.643122">
+        <system-out><![CDATA[Given User is already on the Emi calculator page............................passed
+When User clicks on the Personal Loan tab...................................passed
+And User enters Personal_Loan_Amount and Personal_Interest_Rate and Personal_Loan_Tenure.passed
+And clicks Enter............................................................passed
+Then Loan EMI is displayed..................................................passed
+And Total Interest Payable is displayed.....................................passed
+And Total Payment is displayed..............................................passed
+When User clicks on the Car Loan tab........................................passed
+And User enters Car_Loan_Amount and Car_Interest_Rate and Car_Loan_Tenure...passed
+And clicks Enter............................................................passed
+Then Car Loan EMI is displayed..............................................passed
+And Car Interest Payable is displayed.......................................passed
+And Car Payment is displayed................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

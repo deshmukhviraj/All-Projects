@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="12.289167">
+    <testcase classname="Perfom CRUD operations on Address Book website" name="Sign in and sign out" time="12.289167">
+        <system-out>
+            <![CDATA[Given User is already on the TestAddressBook page...........................passed
+When User clicks on the Sign in link........................................passed
+Then the Sign in page is displayed..........................................passed
+When User enters the Email address and Password on SignIn page..............passed
+And Clicks on the Sign in button............................................passed
+Then User navigates to the Welcome page.....................................passed
+When User clicks on the Sign out link.......................................passed
+Then the Sign in page is displayed..........................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner (2)" project="BDDCucumberFrameworkPOM" tests="8" started="8" failures="0" errors="0" ignored="0">
+  <testsuite name="testRunner.TestRunner" time="4.339">
+    <testsuite name="Feature: Perfom CRUD operations on Address Book website" time="4.339">
+      <testsuite name="Scenario: Sign in and sign out" time="4.339">
+        <testcase name="Given User is already on the TestAddressBook page" classname="Scenario: Sign in and sign out" time="0.061"/>
+        <testcase name="When User clicks on the Sign in link" classname="Scenario: Sign in and sign out" time="0.536"/>
+        <testcase name="Then the Sign in page is displayed" classname="Scenario: Sign in and sign out" time="0.172"/>
+        <testcase name="When User enters the Email address and Password on SignIn page" classname="Scenario: Sign in and sign out" time="0.763"/>
+        <testcase name="And Clicks on the Sign in button" classname="Scenario: Sign in and sign out" time="2.012"/>
+        <testcase name="Then User navigates to the Welcome page" classname="Scenario: Sign in and sign out" time="0.54"/>
+        <testcase name="When User clicks on the Sign out link" classname="Scenario: Sign in and sign out" time="0.03"/>
+        <testcase name="Then the Sign in page is displayed" classname="Scenario: Sign in and sign out" time="0.225"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>
